@@ -1,0 +1,156 @@
+h1 {
+    font-weight: 400;
+    line-height: 1.2;
+    font-size: 2.5rem;
+    font-family: Times, sans serif;
+}
+
+p {
+    font-size: 1.125rem;
+}
+
+h1,
+p {
+    margin-top: 0.5rem;
+    margin-bottom: 0.4rem;
+}
+
+.text-center {
+    text-align: center;
+    margin-left: 470px;
+}
+
+.quote-container {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-style: italic;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+blockquote {
+    margin: 0;
+}
+
+cite {
+    display: block;
+    text-align: center;
+    margin: 0;
+}
+
+
+.textarea {
+    background-color: #dddddd;
+    color: #666666;
+    padding: 1em;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    outline: none;
+    font-family: "Heebo", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.4;
+    width: 500px;
+    height: 250px;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+    .textarea {
+        width: 90%;
+    }
+}
+
+.poll-container {
+    border: 1px solid #ccc;
+    padding: 3px;
+}
+
+.poll-question {
+    font-weight: bold;
+}
+
+.poll-creation-time {
+    font-style: italic;
+}
+
+.poll-deadline {
+    color: green;
+}
+
+.poll-deadline-over {
+    color: red;
+}
+
+.vote-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.vote-button:hover {
+    background-color: #3e8e41;
+}
+
+.open-section {
+    float: left;
+    width: 47%;
+    padding: 1rem;
+    margin-left: 1rem;
+}
+
+.closed-section {
+    float: left;
+    width: 95%;
+    padding: 1rem;
+    margin-left: 0rem;
+}
+
+
+.poll-section {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.poll-header {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.poll-info {
+    font-size: 0.8rem;
+    color: #666;
+    margin-bottom: 0.5rem;
+}
+
+.poll-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.flash {
+    animation: flash 1s linear infinite;
+}
+
+@keyframes flash {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

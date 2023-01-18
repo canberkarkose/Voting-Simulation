@@ -1,0 +1,67 @@
+{
+    "63b9aaf728de6": {
+        "question": "Would you like FREE snacks on the university campus?",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "multiple": false,
+        "deadline": "2023-01-20",
+        "creation": "2023-01-07 17:25:11",
+        "voted": [
+            "a"
+        ],
+        "answers": [
+            "Yes"
+        ],
+        "poll_id": "poll1",
+        "id": "63b9aaf728de6"
+    },
+    "63c04e6cade5c": {
+        "question": "What kind of snacks would you like?",
+        "options": [
+            "Potato chips",
+            "Peanuts",
+            "Chocolate bars",
+            "Cookies"
+        ],
+        "multiple": true,
+        "deadline": "2023-01-27",
+        "creation": "2023-01-12 18:16:12",
+        "voted": [],
+        "answers": [],
+        "poll_id": "poll2",
+        "id": "63c04e6cade5c"
+    },
+    "63c5d095a5853": {
+        "question": "Would you prefer something healthy or unhealthy?",
+        "options": [
+            "Healthy",
+            "Unhealthy"
+        ],
+        "multiple": false,
+        "deadline": "2023-01-17",
+        "creation": "2023-01-16 22:32:53",
+        "voted": [],
+        "answers": [],
+        "poll_id": "poll3",
+        "id": "63c5d095a5853"
+    },
+    "63c6971dce42b": {
+        "question": "What are the best platforms for video games?",
+        "options": [
+            "The Sony PlayStation",
+            "Microsoft's Xbox",
+            "Nintendo's Switch",
+            "PCS",
+            "Mobile"
+        ],
+        "multiple": true,
+        "deadline": "2023-01-15",
+        "creation": "2023-01-17 12:39:57",
+        "voted": [],
+        "answers": [],
+        "poll_id": "poll4",
+        "id": "63c6971dce42b"
+    }
+}
